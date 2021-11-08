@@ -11,8 +11,6 @@ const Confirm = () => {
   const [pickupCoordinates, setPickup] = useState([0, 0]);
   const [destinationCoordinates, setDestination] = useState([0, 0]);
 
-  /* TODO: Set conditions for destination and pickup coordinates
-  - Delete the if blocks looking at the first element of the array */
   const getPickupCoordinates = (pickup) => {
     // const pickup = "Tijuana";
 
