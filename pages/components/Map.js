@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import tw from "tailwind-styled-components";
 import mapboxgl from "!mapbox-gl";
 
@@ -26,7 +26,6 @@ const Map = ({ pickupCoordinates, destinationCoordinates }) => {
       map.fitBounds([pickupCoordinates, destinationCoordinates], {
         padding: { top: 50, bottom: 50, left: 50, right: 50 },
       });
-
     }
 
     map.on("load", async () => {
