@@ -33,7 +33,7 @@ const Home = () => {
       <ActionItems>
         {/* Header */}
         <Header>
-          <HeaderLogo src="https://cdn-icons-png.flaticon.com/512/732/732135.png" />
+          <HeaderLogo src="./Rider.png" />
           <Profile>
             <Name>{user?.name}</Name>
             <UserImage src={user?.photoUrl} onClick={() => signOut(auth)} />

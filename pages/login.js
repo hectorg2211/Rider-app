@@ -17,7 +17,7 @@ const Login = () => {
 
   return (
     <Wrapper>
-      <RiderLogo src="https://cdn-icons-png.flaticon.com/512/732/732135.png" />
+      <RiderLogo src="./Full-rider.png" />
       <Title>Log in to access your account </Title>
       <HeadImage src="https://i.ibb.co/CsV9RYZ/login-image.png" />
       <SignInButton onClick={() => signInWithPopup(auth, provider)}>
