@@ -61,7 +61,7 @@ Some extra functionality:
 - Route tracing
 - Authentication
 
-[![Heythere](https://github.com/hectorg2211/rider-app/blob/master/HeyThere.jpg)](https://heythere-messaging.netlify.app/)
+[![Rider](https://github.com/hectorg2211/Rider-app/blob/main/Rider.jpg)](https://rider-app.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
